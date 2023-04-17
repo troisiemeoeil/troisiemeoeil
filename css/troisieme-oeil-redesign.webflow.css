@@ -4017,12 +4017,19 @@ blockquote {
   color: #4c4172;
 }
 
+.partner-image {
+  border-radius: 10px;
+}
+
 .testimonial-content-wrap {
+  display: flex;
+  flex-direction: row;
+  gap: 4px;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  width: 50%;
+  width: 70%;
   padding: 2.5em 0.5em;
   -webkit-box-align: center;
   -webkit-align-items: center;
@@ -4376,6 +4383,7 @@ blockquote {
   -webkit-align-items: flex-start;
   -ms-flex-align: start;
   align-items: flex-start;
+  padding-bottom: 10%;
 }
 
 .button-wrapper-2-c {
@@ -6484,6 +6492,9 @@ blockquote {
     width: 100%;
     min-height: 0em;
     padding-left: 25px;
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
   }
 
   .testimonial-columns {
