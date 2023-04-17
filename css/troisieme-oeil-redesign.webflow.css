@@ -59,7 +59,7 @@
   font-family: 'Morganite';
   src: url('../fonts/Morganite-Light.ttf') format('truetype');
   font-weight: 300;
-  font-style: normal;
+  font-style:normal;
   font-display: block;
 }
 @font-face {
@@ -389,13 +389,13 @@ blockquote {
 }
 
 .display.is-1 {
-  font-family: "Morganite";
+  font-family: Morganite;
   font-size: 15em;
   letter-spacing: 0.03em;
 }
 
 .display.is-2 {
-  font-family: "Morganite";
+  font-family: Morganite;
   font-size: 15em;
   letter-spacing: 0.04em;
 }
