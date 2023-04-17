@@ -1,7 +1,81 @@
-/* @font-face {
-  font-family: "Morganite-Black";
-  src: url("C:/Users/Mega-Pc/Desktop/troisiemeoeil redesign/fonts/Morganite-Black.ttf");
-} */
+
+@font-face {
+  font-family: 'Morganite';
+  src: url('../fonts/Morganite-Bold.ttf') format('truetype'), url('../fonts/Morganite-ExtraBold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Morganite';
+  src: url('../fonts/Morganite-ExtraLight.ttf') format('truetype');
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Morganite book';
+  src: url('../fonts/Morganite-Book.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Morganite';
+  src: url('../fonts/Morganite-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'ezomp';
+  src: url('../fonts/GallientRegular-eZoMp.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Morganite';
+  src: url('../fonts/Morganite-Black.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Morganite';
+  src: url('../fonts/Morganite-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Morganite';
+  src: url('../fonts/Morganite-Thin.ttf') format('truetype');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Morganite';
+  src: url('../fonts/Morganite-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Roobert Pro';
+  src: url('../fonts/RoobertPRO-Medium.otf') format('opentype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Roobert Pro';
+  src: url('../fonts/RoobertPRO-Regular.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
 
 .w-layout-grid {
   display: -ms-grid;
@@ -96,7 +170,6 @@
 
 body {
   background-color: #fff;
-  font-family: 'Roobert Pro', sans-serif;
   color: #000;
   font-size: 0.8333333333333334vw;
   line-height: 1.6;
@@ -7647,82 +7720,4 @@ blockquote {
     -ms-grid-column-span: 2;
     grid-column-end: span 2;
   }
-}
-
-@font-face {
-  font-family: 'Morganite';
-  src: url('../fonts/Morganite-Bold.ttf') format('truetype'), url('../fonts/Morganite-ExtraBold.ttf') format('truetype');
-  font-weight: 700;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: 'Morganite';
-  src: url('../fonts/Morganite-ExtraLight.ttf') format('truetype');
-  font-weight: 200;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: 'Morganite book';
-  src: url('../fonts/Morganite-Book.ttf') format('truetype');
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: 'Morganite';
-  src: url('../fonts/Morganite-Medium.ttf') format('truetype');
-  font-weight: 500;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: 'ezomp';
-  src: url('../fonts/GallientRegular-eZoMp.ttf') format('truetype');
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: 'Morganite';
-  src: url('../fonts/Morganite-Black.ttf') format('truetype');
-  font-weight: 900;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: 'Morganite';
-  src: url('../fonts/Morganite-SemiBold.ttf') format('truetype');
-  font-weight: 600;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: 'Morganite';
-  src: url('../fonts/Morganite-Thin.ttf') format('truetype');
-  font-weight: 100;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: 'Morganite';
-  src: url('../fonts/Morganite-Light.ttf') format('truetype');
-  font-weight: 300;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: 'Roobert Pro';
-  src: url('../fonts/RoobertPRO-Medium.otf') format('opentype');
-  font-weight: 500;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: 'Roobert Pro';
-  src: url('../fonts/RoobertPRO-Regular.otf') format('opentype');
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
 }
