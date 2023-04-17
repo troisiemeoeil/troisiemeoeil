@@ -311,13 +311,13 @@ blockquote {
 }
 
 .display.is-1 {
-  font-family: Morganite, sans-serif;
+  font-family: Morganite;
   font-size: 15em;
   letter-spacing: 0.03em;
 }
 
 .display.is-2 {
-  font-family: Morganite, sans-serif;
+  font-family: Morganite;
   font-size: 15em;
   letter-spacing: 0.04em;
 }
