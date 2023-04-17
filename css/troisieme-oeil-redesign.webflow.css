@@ -1,3 +1,8 @@
+/* @font-face {
+  font-family: "Morganite-Black";
+  src: url("C:/Users/Mega-Pc/Desktop/troisiemeoeil redesign/fonts/Morganite-Black.ttf");
+} */
+
 .w-layout-grid {
   display: -ms-grid;
   display: grid;
@@ -311,13 +316,13 @@ blockquote {
 }
 
 .display.is-1 {
-  font-family: Morganite;
+  font-family: "Morganite";
   font-size: 15em;
   letter-spacing: 0.03em;
 }
 
 .display.is-2 {
-  font-family: Morganite;
+  font-family: "Morganite";
   font-size: 15em;
   letter-spacing: 0.04em;
 }
