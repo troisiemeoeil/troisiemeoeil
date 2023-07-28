@@ -806,6 +806,8 @@ blockquote {
   transform: none;
   font-size: 1rem;
   line-height: 1.7;
+  margin-right: -1%;
+    margin-left: -1%;
 }
 
 .navmenu__col-1-list {
@@ -7297,7 +7299,7 @@ blockquote {
   }
 
   .paragraph-4 {
-    font-size: 9px;
+        font-size: 10em;
     letter-spacing: 3px;
   }
 
@@ -7341,10 +7343,11 @@ blockquote {
   }
 
   .cards {
-    width: 8em;
-    height: 11em;
-    margin-bottom: 40px;
-    margin-left: 0em;
+    width: 45%;
+    height: 50em;
+    margin-top: 10em;
+    margin-bottom: 56px;
+    margin-left: 13em;
     -webkit-box-pack: center;
     -webkit-justify-content: center;
     -ms-flex-pack: center;
